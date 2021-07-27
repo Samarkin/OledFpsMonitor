@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OledFpsMonitor", "OledFpsMonitor\OledFpsMonitor.csproj", "{53FF7C3D-AB78-40EE-AED0-F959350823A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OledClient", "OledClient\OledClient.csproj", "{8D6E4928-1DC1-4029-BE38-BADE64E9E925}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OledClient.Tests", "OledClient.Tests\OledClient.Tests.csproj", "{44E7641B-CA4C-4EBA-A2A3-0E0CEC565CB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemMonitor", "SystemMonitor\SystemMonitor.csproj", "{A72A3744-9AE3-4354-9DC6-F1524DA1148D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53FF7C3D-AB78-40EE-AED0-F959350823A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53FF7C3D-AB78-40EE-AED0-F959350823A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53FF7C3D-AB78-40EE-AED0-F959350823A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53FF7C3D-AB78-40EE-AED0-F959350823A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D6E4928-1DC1-4029-BE38-BADE64E9E925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6E4928-1DC1-4029-BE38-BADE64E9E925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6E4928-1DC1-4029-BE38-BADE64E9E925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6E4928-1DC1-4029-BE38-BADE64E9E925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E7641B-CA4C-4EBA-A2A3-0E0CEC565CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E7641B-CA4C-4EBA-A2A3-0E0CEC565CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E7641B-CA4C-4EBA-A2A3-0E0CEC565CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E7641B-CA4C-4EBA-A2A3-0E0CEC565CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A72A3744-9AE3-4354-9DC6-F1524DA1148D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A72A3744-9AE3-4354-9DC6-F1524DA1148D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A72A3744-9AE3-4354-9DC6-F1524DA1148D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A72A3744-9AE3-4354-9DC6-F1524DA1148D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A0AD2CA-9FDD-4BC3-8489-0AA2C8FA7F6C}
+	EndGlobalSection
+EndGlobal

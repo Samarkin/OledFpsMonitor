@@ -1,0 +1,24 @@
+﻿<Window
+		x:Class="OledFpsMonitor.Views.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:vm="clr-namespace:Samarkin.Oled.FpsMonitor.ViewModels"
+		mc:Ignorable="d"
+		Title="MainWindow"
+		Height="450"
+		Width="800"
+		Closed="WindowClosed"
+	>
+	<Window.DataContext>
+		<vm:MainWindowViewModel/>
+	</Window.DataContext>
+	<StackPanel>
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+			<TextBlock Text="{Binding Login, StringFormat=Logged in as {0}, TargetNullValue=Not logged in}" Margin="5"/>
+		</StackPanel>
+		<TextBox Margin="15" Text="{Binding Text}"></TextBox>
+		<Button Margin="15" Command="{Binding MainButtonCommand}">Do stuff!</Button>
+	</StackPanel>
+</Window>

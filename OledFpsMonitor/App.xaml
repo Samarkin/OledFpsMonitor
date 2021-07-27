@@ -1,0 +1,13 @@
+﻿<Application
+		x:Class="OledFpsMonitor.App"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:Samarkin.Oled.FpsMonitor"
+		mc:Ignorable="local"
+		StartupUri="Views/MainWindow.xaml"
+	>
+	<Application.Resources>
+		 
+	</Application.Resources>
+</Application>
